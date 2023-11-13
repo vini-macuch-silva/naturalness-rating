@@ -1,7 +1,7 @@
 export default {
   experimentId: '1',
-  serverUrl: 'https://magpie-demo.herokuapp.com/',
-  socketUrl: 'wss://magpie-demo.herokuapp.com/socket',
+  serverUrl: 'http://localhost:4000/',
+  socketUrl: 'http://localhost:4000/socket',
   // this will be used in prolific mode
   // completionUrl: 'https://...',
   contactEmail: 'v.macuchsilva@bham.ak.uk',
