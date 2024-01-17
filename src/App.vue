@@ -30,7 +30,7 @@
     </Screen>
 
     <Screen>
-      In order to complete the task, each trial you will be asked to read a metaphoric statement and to rate how natural you think it sounds. All you have to do is to move the slider closer to either end of the scale.
+      In order to complete the task, each trial you will be asked to read a statement and to rate how natural you think it sounds. All you have to do is to move the slider closer to either end of the scale.
       <button @click="$magpie.nextScreen()">Proceed to task</button>
     </Screen>
 
@@ -47,6 +47,7 @@
             question="How natural does this sentence sound to you?"
             option-left="Very unnatural"
             option-right="Very natural"
+            initial=50
             />
         <Record :data="{
            'qud': trial.qud,
@@ -71,15 +72,23 @@
 
 <script>
 import _ from 'lodash';
-import items from '../trials/materials.csv';
+import items from '../trials/materials-v1.csv';
 
+
+// let items_sorted = []
+// for (var i = 0; i < 15; i += 3) {
+//   items_sorted.push(items[i + _.sample([0, 1, 2])])
+// }
+let critical = _.slice(items, 0, 2)
+
+let fillers = _.slice(_.shuffle(_.slice(items, 16, 55)), 0, 2)
+// for (var i = 46; i < 85; i++) {
+//     fillers.push(items[i])
+// }
 
 let items_sorted = []
-for (var i = 0; i < 25; i += 3) {
-  items_sorted.push(items[i + _.sample([0, 1, 2])])
-}
-
-items_sorted = _.shuffle(items_sorted);
+items_sorted = _.shuffle(_.concat(critical, fillers));
+// items_sorted = _.shuffle(items_sorted);
 console.log(items_sorted);
 
 export default {
