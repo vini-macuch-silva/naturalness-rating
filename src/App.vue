@@ -9,7 +9,7 @@
       In this task, you will be asked to read short statements presented in the absence of context and to rate how natural these statements sound. The whole experiment should take no more than 5-10 minutes.
       <br />
       <br />
-      The only condition on taking part is that you are <b>over 18</b>. There no known risks to taking part and your data will be entirely anonymous. You are free to withdraw at any point before you complete the survey by closing your browser window. Since it is anonymous, it will not be possible to withdraw your data after you finish the survey. Data may be used for teaching and research purposes and will be stored securely by the research team at the University of Birmingham.
+      The only condition for taking part is that you are <b>over 18</b>. There are no known risks to taking part and your data will be entirely anonymous. You are free to withdraw at any point before you complete the survey by closing your browser window. Since it is anonymous, it will not be possible to withdraw your data after you finish the survey. Data may be used for teaching and research purposes and will be stored securely by the research team at the University of Birmingham.
       <br />
       <br />
       By clicking the accept button below, you indicate that:
