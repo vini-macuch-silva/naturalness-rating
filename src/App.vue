@@ -6,21 +6,19 @@
     </Screen>
 
     <Screen>
-      In this task, you will be asked to read short metaphoric statements presented in the absence of context and to rate how natural these statements sound. The whole experiment should take up to five minutes.
+      In this task, you will be asked to read short statements presented in the absence of context and to rate how natural these statements sound. The whole experiment should take no more than 5-10 minutes.
       <br />
       <br />
-      The only condition on taking part is that you are <b>over 18</b>. Please follow this <a href="http://blake.ppls.ed.ac.uk/~pling/consent-vinicius.html">link</a> to read the consent form about participating in the experiment.
+      The only condition on taking part is that you are <b>over 18</b>. There no known risks to taking part and your data will be entirely anonymous. You are free to withdraw at any point before you complete the survey by closing your browser window. Since it is anonymous, it will not be possible to withdraw your data after you finish the survey. Data may be used for teaching and research purposes and will be stored securely by the research team at the University of Birmingham.
       <br />
       <br />
       By clicking the accept button below, you indicate that:
       <br />
       <span style="margin-left:2em">You are over 18.</span>
       <br />
-      <span style="margin-left:2em">You have read the consent form.</span>
+      <span style="margin-left:2em">You voluntarily agree to participate and understand that you can stop your participation at any time by closing your browser window before the study is completed.</span>
       <br />
-      <span style="margin-left:2em">You voluntarily agree to participate and understand that you can stop your participation at any time.</span>
-      <br />
-      <span style="margin-left:2em">You agree that your <b>anonymous</b> data may be kept permanently in University of Birmingham archives and may be used by qualified researchers for teaching and research purposes.</span>
+      <span style="margin-left:2em">You agree that your <b>anonymous</b> data may be stored securely in University of Birmingham archives and may be used by qualified researchers for teaching and research purposes.</span>
       <br />
       <br />
       If you do not agree to all of these points, please close your browser window now.
@@ -79,9 +77,9 @@ import items from '../trials/materials-v1.csv';
 // for (var i = 0; i < 15; i += 3) {
 //   items_sorted.push(items[i + _.sample([0, 1, 2])])
 // }
-let critical = _.slice(items, 0, 2)
+let critical = _.slice(items, 0, 15)
 
-let fillers = _.slice(_.shuffle(_.slice(items, 16, 55)), 0, 2)
+let fillers = _.slice(_.shuffle(_.slice(items, 16, 55)), 0, 30)
 // for (var i = 46; i < 85; i++) {
 //     fillers.push(items[i])
 // }
