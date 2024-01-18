@@ -6,6 +6,6 @@ export default {
   completionUrl: 'https://app.prolific.com/submissions/complete?cc=C1IL9M3C',
   contactEmail: 'v.macuchsilva@bham.ak.uk',
   // Either 'debug', 'directLink' or 'prolific'
-  mode: 'Prolific',
+  mode: 'prolific',
   language: 'en'
 };
