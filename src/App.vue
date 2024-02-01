@@ -70,7 +70,7 @@
 
 <script>
 import _ from 'lodash';
-import items from '../trials/materials-v1.csv';
+import items from '../trials/materials-v2.csv';
 
 
 // let items_sorted = []
